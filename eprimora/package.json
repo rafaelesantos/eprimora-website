@@ -1,0 +1,35 @@
+{
+  "name": "eprimora-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelesantos/eprimora-website.git"
+  },
+  "author": "Rafael Escaleira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelesantos/eprimora-website/issues"
+  },
+  "homepage": "https://github.com/rafaelesantos/eprimora-website#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "nextra": "^0.4.0",
+    "nextra-theme-docs": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
